@@ -1,18 +1,18 @@
 class DiaCli < Formula
   desc "Control Dia tabs, windows, and profiles from the terminal"
   homepage "https://github.com/Jermic/dia-cli"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
   depends_on :macos
 
   on_arm do
-    url "https://github.com/Jermic/dia-cli/releases/download/v0.4.0/dia-cli_0.4.0_darwin_arm64.tar.gz"
-    sha256 "18f24f7af983996f823349794c55f65b16461b24ee56de94cdc15d959489d7b5"
+    url "https://github.com/Jermic/dia-cli/releases/download/v0.4.1/dia-cli_0.4.1_darwin_arm64.tar.gz"
+    sha256 "a6ad1e0231a2db0d1aaf5c69e67e164c3489dd92e355579057fa8e43d3e50e70"
   end
 
   on_intel do
-    url "https://github.com/Jermic/dia-cli/releases/download/v0.4.0/dia-cli_0.4.0_darwin_amd64.tar.gz"
-    sha256 "9ddb8a0f949917ba560de46cfe660f433e0247dc873beba727fe397f202ef9c2"
+    url "https://github.com/Jermic/dia-cli/releases/download/v0.4.1/dia-cli_0.4.1_darwin_amd64.tar.gz"
+    sha256 "9ac474baf49903e62be1c684ae5ed9e96c5a452ed452048275832d80819f01d7"
   end
 
   def install
